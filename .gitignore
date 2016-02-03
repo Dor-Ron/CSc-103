@@ -1,0 +1,3 @@
+!*.cpp
+!*.md
+* // ignore all that isnt markdown or cpp
