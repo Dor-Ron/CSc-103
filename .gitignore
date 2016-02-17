@@ -3,3 +3,6 @@
 # ignore all that isnt markdown or cpp
 *
 oldAssignments/
+
+#ignore video lectures
+*.mp4
