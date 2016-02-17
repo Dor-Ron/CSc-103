@@ -1,7 +1,7 @@
+# ignore all that isnt markdown or cpp
 !*.cpp
 !*.md
-# ignore all that isnt markdown or cpp
-*
+
 oldAssignments/
 
 #ignore video lectures
