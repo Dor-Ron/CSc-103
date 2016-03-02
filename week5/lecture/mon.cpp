@@ -15,5 +15,5 @@ int main() {
 
   vi.at(7) // check seventh index
   cout << vi.at(9) == vi[9]; //can use bracket operators as in different languages.
-
+  return 0;
 }
