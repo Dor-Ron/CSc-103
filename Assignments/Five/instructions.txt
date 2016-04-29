@@ -99,7 +99,9 @@ The intention is to select the turn with the highest score computed.
 However, choosing the identified turn may be too hasty because that choice for you (or machine) may not be damaging
 the opponent but rather contributing to the winning position of the opponent.
 The right way is to apply the "simulated" motion of each turn the machine can make,
-followed by the same simulated motion at the human-side to evaluate how the human-side would be losing based on the same computation. The iterative round of this simulated implementation is the so-called "Minimax with alpha-beta pruning method" in the Artificial Intelligence Course and this is beyond this course's material.
+followed by the same simulated motion at the human-side to evaluate how the human-side would be losing based on the same computation.
+The iterative round of this simulated implementation is the so-called "Minimax with alpha-beta pruning method"
+in the Artificial Intelligence Course and this is beyond this course's material.
 
 A simplified method is applied here. After your (human) turn,
 the machine will inspect all the possible turns by placing 'x' move to the board and select the one with the highest score.
